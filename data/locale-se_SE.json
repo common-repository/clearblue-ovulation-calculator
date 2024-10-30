@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "Ägglossningskalender",
+		"When did your last period start?": "När började din senaste mens?",
+		"E.g. 18/01/2020": "T.ex. 18/01/2020",
+		"Usually, how long is your cycle?": "Vanligtvis, hur lång är din cykel?",
+		"Cycles typically vary from 23 to 35 days": "Cykler varierar vanligtvis från 23 till 35 dagar",
+		"Less than": "Mindre än",
+		"Over": "Över",
+		"Estimate your ovulation day": "Uppskatta din ägglossningsdag",
+		"likelihood of ovulating today": "sannolikheten för ägglossning idag",
+		"Likelihood of ovulating on this date": "Sannolikhet för ägglossning på detta datum",
+		"Start of your last period": "Början av din senaste mens",
+		"Change my informations": "Ändra min",
+		"In partnership with Clearblue.": "I samarbete med <a href='https://se.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "Resultaten är baserade på informationen du har lämnat och data från publikationen nedan: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Aktuell medicinsk forskning och yttrande, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "På grund av din cykellängd kan vi tyvärr inte uppskatta sannolikheten för ägglossning. Vi rekommenderar att du använder ett digitalt ägglossningstest för att exakt upptäcka dina mest fruktbara dagar.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "Låt plugin visa a \"I samarbete med Clearblue\" länk",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "yyyy-mm-dd",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"Januari", "Februari", "Mars", "April", "Maj", "Juni", "Juli", "Augusti", "September", "Oktober", "November", "December"
+		],
+		"monthsShort": [
+			"Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"
+		],
+		"days": [
+			"söndag", "måndag", "tisdag", "onsdag", "torsdag", "fre", "lördag"
+		],
+		"daysMin": [
+			"sön", "mån", "tis", "ons", "tor", "fre", "lör"
+		]
+	}
+}

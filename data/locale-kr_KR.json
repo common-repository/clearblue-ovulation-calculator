@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "배란일 계산기",
+		"When did your last period start?": "마지막 생리 시작일은 언제입니까?",
+		"E.g. 18/01/2020": "예: 18/01/2020",
+		"Usually, how long is your cycle?": "일반적으로주기는 얼마나 걸립니까?",
+		"Cycles typically vary from 23 to 35 days": "주기는 일반적으로 23 일에서 35 일까지 다양합니다.",
+		"Less than": "이하",
+		"Over": "위에",
+		"Estimate your ovulation day": "배란일 추정",
+		"likelihood of ovulating today": "배란 가능성",
+		"Likelihood of ovulating on this date": "이 날짜에 배란 가능성",
+		"Start of your last period": "마지막 생리 시작",
+		"Change my informations": "내 정보를 변경",
+		"In partnership with Clearblue.": "와 제휴 <a href='https://kr.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "결과는 제공 한 정보와 아래 간행물의 데이터를 기반으로합니다. Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018) : “Can apps and calendar methods predict ovulation with accuracy?”, 현재 의학 연구 및 의견, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "안타깝게도주기 길이 때문에 배란 확률을 추정 할 수 없습니다. 가장 비옥 한 날을 정확하게 감지하려면 디지털 배란 테스트를 사용하는 것이 좋습니다.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "플러그인이 \"Clearblue와 제휴\" 링크",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "yyyy-mm-dd",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"1월 (일월)", "2월 (이월)", "3월 (삼월)", "4월 (사월)", "5월 (오월)", "6월 (유월 )", "7월 (칠월)", "8월 (팔월)", "9월 (구월)", "10월 (시월)", "11월 (십일월)", "12월 (십이월)"
+		],
+		"monthsShort": [
+			"1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"
+		],
+		"days": [
+			"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"
+		],
+		"daysMin": [
+			"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"
+		]
+	}
+}

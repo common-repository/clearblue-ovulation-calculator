@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "Calculateur d'ovulation",
+		"When did your last period start?": "Quand ont commencé vos dernières règles ?",
+		"E.g. 18/01/2020": "Par ex. le 18/01/2020",
+		"Usually, how long is your cycle?": "Habituellement, combien de temps dure votre cycle?",
+		"Cycles typically vary from 23 to 35 days": "Les cycles varient généralement de 23 à 35 jours",
+		"Less than": "Moins de",
+		"Over": "Plus de",
+		"Estimate your ovulation day": "Estimez votre journée d'ovulation",
+		"likelihood of ovulating today": "probabilité d'ovulation aujourd'hui",
+		"Likelihood of ovulating on this date": "Probabilité d'ovulation à cette date",
+		"Start of your last period": "Début de vos dernières règles",
+		"Change my informations": "Changer mes informations",
+		"In partnership with Clearblue.": "En partenariat avec <a href='https://fr.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "Les résultats sont basés sur les informations que vous avez fournies et les données de la publication ci-dessous: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Recherches et opinions médicales actuelles, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "En raison de la durée de votre cycle, nous ne pouvons malheureusement pas estimer une probabilité d'ovulation. Nous vous recommandons d'utiliser un test d'ovulation numérique pour détecter avec précision vos jours les plus fertiles.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "Autoriser le plugin à afficher un \"En partenariat avec Clearblue\" lien",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "dd/mm/yyyy",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"
+		],
+		"monthsShort": [
+			"Jan", "Fév", "Mar", "Avr", "Mai", "Jun", "Jul", "Aoû", "Sep", "Oct", "Nov", "Déc"
+		],
+		"days": [
+			"Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"
+		],
+		"daysMin": [
+			"Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"
+		]
+	}
+}

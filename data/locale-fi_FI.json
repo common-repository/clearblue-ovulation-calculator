@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "Ovulaatiolaskuri",
+		"When did your last period start?": "Milloin viimeiset kuukautisesi alkoivat ?",
+		"E.g. 18/01/2020": "Esim. 18/01/2020",
+		"Usually, how long is your cycle?": "Yleensä kuinka pitkä jakso on?",
+		"Cycles typically vary from 23 to 35 days": "Syklit vaihtelevat tyypillisesti 23 - 35 päivää",
+		"Less than": "Pienempi kuin",
+		"Over": "Yli",
+		"Estimate your ovulation day": "Arvioi ovulaatiopäiväsi",
+		"likelihood of ovulating today": "ovulaation todennäköisyys tänään",
+		"Likelihood of ovulating on this date": "Ovulaation todennäköisyys tänä päivänä",
+		"Start of your last period": "Viimeisten kuukautisten ensimmäinen päivä",
+		"Change my informations": "Muokkaa tietoja",
+		"In partnership with Clearblue.": "Yhteistyössä <a href='https://fi.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "Tulokset perustuvat toimittamiin tietoihin ja alla olevan julkaisun tietoihin: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Nykyinen lääketieteellinen tutkimus ja mielipide, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "Syklin pituudesta johtuen valitettavasti emme voi arvioida ovulaation todennäköisyyttä. Suosittelemme, että käytät digitaalista ovulaatiotestiä hedelmällisimpien päiviesi tarkkaan havaitsemiseksi.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "Anna laajennuksen näyttää a \"Yhteistyössä Clearblue: n kanssa\" linkki",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "yyyy-mm-dd",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"Tammikuu", "Helmikuu", "Maaliskuu", "Huhtikuu", "Toukokuu", "Kesäkuu", "Heinäkuu", "Elokuu", "Syyskuu", "Lokakuu", "Marraskuu", "Joulukuu"
+		],
+		"monthsShort": [
+			"Tam", "Hel", "Maa", "Huh", "Tou", "Kes", "Hei", "Elo", "Syy", "Lok", "Mar", "Jou"
+		],
+		"days": [
+			"Sunnuntai", "Maanantai", "Tiistai", "Keskiviikko", "Torstai", "Perjantai", "Lauantai"
+		],
+		"daysMin": [
+			"Sun", "Maa", "Tii", "Kes", "Tor", "Per", "Lau"
+		]
+	}
+}

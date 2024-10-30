@@ -1,0 +1,580 @@
+.cboc {
+	margin: 40px 0;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: var(--cboc-color-text);
+}
+
+.cboc *,
+.cboc *:after,
+.cboc *:before {
+	box-sizing: border-box !important;
+}
+
+.cboc.-round .-format-element,
+.cboc.-round .input-datepicker .datepicker {
+    border-radius: 20px !important;
+}
+
+.cboc-wrapper {
+	background: var(--cboc-color-background);
+	padding: 20px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+.cboc-tool {
+	display: none;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	margin: 0 -10px;
+}
+
+.cboc-tool.-active {
+	display: flex;
+}
+
+.cboc-tool-title {
+	width: calc(100% - 20px);
+	margin: 10px 10px 30px;
+	text-align: center;
+	color: var(--cboc-color-title);
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.cboc-input-line {
+	width: calc(50% - 20px);
+	min-width: 200px;
+	margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.cboc-question {
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+	color: var(--cboc-color-text);
+}
+
+.cboc-input-wrapper {
+	width: 100%;
+	display: block;
+	position: relative;
+	border: solid 1px var(--cboc-color-border);
+	background: var(--cboc-color-input);
+	margin: 0;
+}
+
+.cboc-input {
+	border: none !important;
+	background: none !important;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	display: block !important;
+	outline: none !important;
+	letter-spacing: 0 !important;
+	border-radius: 0 !important;
+	margin: 0 !important;
+	width: 100% !important;
+	font-size: 16px !important;
+	padding: 10px 20px !important;
+	line-height: 20px;
+	font-family: var(--cboc-font) !important;
+	color: var(--cboc-color-text) !important;
+	cursor: pointer !important;
+	position: relative;
+	z-index: 0;
+}
+
+.cboc-input option {
+    color: black;
+}
+
+.cboc-input-wrapper:hover,
+.cboc-input-wrapper:focus {
+	border-color: var(--cboc-color-title);
+}
+
+.cboc-input-wrapper > svg {
+	position: absolute;
+	z-index: 1;
+	right: 10px;
+	width: 20px;
+	height: 20px;
+	top: 10px;
+	fill: var(--cboc-color-title);
+}
+
+.cboc-input-wrapper > svg.-calendar {
+	margin-right: 5px;
+}
+
+.cboc-input-line.-error .cboc-question {
+	color: var(--cboc-color-error);
+}
+
+.cboc-input-line.-error .cboc-input-wrapper {
+	border-color: var(--cboc-color-error);
+}
+
+.cboc-input-line.-error .cboc-input-wrapper > svg {
+	fill: var(--cboc-color-error);
+}
+
+.cboc-datepicker .input-datepicker {
+	display: none;
+}
+
+.cboc-datepicker.-active .input-datepicker {
+	display: block;
+}
+
+.cboc-datepicker .input-datepicker .datepicker {
+    position: relative;
+    left: auto !important;
+    top: auto !important;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    z-index: 10;
+    max-width: 600px;
+    max-height: 530px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+	overflow: hidden;
+}
+
+.cboc-datepicker .input-datepicker .datepicker-inline {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--content {
+    height: 90%;
+    padding: 0;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--nav {
+    height: 10%;
+    font-size: 16px;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--body {
+}
+
+.cboc-datepicker .input-datepicker .datepicker--body.active {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--cells {
+    justify-content: stretch;
+    height: 90%;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--days-names {
+    justify-content: stretch;
+    height: 10%;
+    background: #EFEFEF;
+    margin: 0;
+    border-bottom: solid 5px #FFFFFF;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--day-name {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: inherit;
+    text-transform: none;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--cell {
+    height: auto;
+}
+
+.cboc-datepicker .input-datepicker .overlay {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.cboc-description {
+	opacity: 0.66;
+	margin-top: 10px;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.cboc-description-global {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.cboc-description-global a {
+    color: inherit;
+}
+
+.cboc-button-wrapper {
+	width: 100%;
+	margin: 30px 10px 10px;
+	text-align: center;
+}
+
+.cboc-button {
+	background: var(--cboc-color-button);
+	color: var(--cboc-color-button-text);
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1em 1.5em;
+	font-weight: 700;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+	line-height: 1;
+}
+
+.cboc-button span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cboc-button svg {
+	fill: currentColor;
+	display: inline-block;
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+}
+
+.cboc-button:hover {
+	filter: brightness(115%);
+}
+
+.cboc-button--arrow-left svg {
+	margin-right: 10px;
+}
+
+.cboc-button--arrow-right svg {
+	margin-left: 10px;
+
+}
+
+.cboc-results {
+	display: none;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	margin: 0 -10px;
+}
+
+.cboc-results.-active {
+	display: flex;
+}
+
+.cboc-calendars-wrapper {
+	width: calc(100% - 20px);
+	margin: 0 10px;
+}
+
+.cboc-calendars {
+
+}
+
+.cboc-result-container {
+	margin-bottom: 20px;
+    border: 1px solid var(--cboc-color-border);
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.cboc-result-container:last-child {
+	margin-bottom: 0;
+}
+
+.cboc-result-title {
+    text-align: center;
+    padding: 1rem 0.5rem;
+    margin: 0;
+    color: var(--cboc-color-text);
+    border-bottom: 1px solid var(--cboc-color-border);
+    position: relative;
+}
+
+.cboc-result-title strong {
+	font-weight: bold;
+	color: var(--cboc-color-title);
+}
+
+.cboc-calendar {
+	margin: 0;
+    width: 100%;
+    border-collapse: separate;
+    border: none;
+    border-spacing: 0;
+    overflow: visible;
+}
+
+.cboc-calendar th {
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+	font-weight: normal;
+    background: var(--cboc-color-border);
+    border-bottom: solid 5px var(--cboc-color-background);
+    border: none;
+}
+
+.cboc-calendar tr {
+	
+}
+
+.cboc-calendar td {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    position: relative;
+    padding: 2px;
+    border: none;
+}
+
+.cboc-bubble {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50px;
+    max-width: 50px;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: center;
+    border: solid 2px transparent;
+    cursor: pointer;
+    line-height: 15px;
+}
+
+.cboc-bubble-number {
+    display: block;
+    padding: 4px;
+    background: var(--cboc-color-background);
+}
+
+.cboc-bubble-bubble {
+    display: none;
+    padding: 4px;
+    color: var(--cboc-color-background);
+    font-weight: normal;
+    min-height: 22px;
+}
+
+.cboc-bubble.-period {
+    border-color: var(--cboc-color-bubble-period);
+    background-color: var(--cboc-color-bubble-period);
+}
+
+.cboc-bubble.-period .cboc-bubble-number {
+	color: var(--cboc-color-bubble-period);
+}
+
+.cboc-bubble.-period .cboc-bubble-bubble {
+    display: block;
+    background: url('../img/period.svg') var(--cboc-color-bubble-period) 50% 5px no-repeat;
+    background-size: 10px;
+    color: var(--cboc-color-bubble-period);
+    font-size: 0;
+}
+
+.cboc-bubble.-null {
+	border: none !important;
+}
+
+.cboc-bubble.-period + .cboc-calendar-tooltip,
+.cboc-bubble.-null + .cboc-calendar-tooltip {
+	display: none;
+}
+
+.cboc-bubble.-prct-0,
+.cboc-bubble.-prct-5 {
+    border-color: var(--cboc-color-bubble-prct-0-5);
+    background-color: var(--cboc-color-bubble-prct-0-5);
+}
+
+.cboc-bubble.-prct-0 .cboc-bubble-number,
+.cboc-bubble.-prct-5 .cboc-bubble-number {
+    color: var(--cboc-color-bubble-prct-0-5);
+}
+
+.cboc-bubble.-prct-0 .cboc-bubble-bubble,
+.cboc-bubble.-prct-5 .cboc-bubble-bubble {
+    display: block;
+    background-color: var(--cboc-color-bubble-prct-0-5);
+}
+
+.cboc-bubble.-prct-0 + .cboc-calendar-tooltip,
+.cboc-bubble.-prct-5 + .cboc-calendar-tooltip {
+    background-color: var(--cboc-color-bubble-prct-0-5);
+}
+
+.cboc-bubble.-prct-0 + .cboc-calendar-tooltip:after,
+.cboc-bubble.-prct-5 + .cboc-calendar-tooltip:after {
+    border-color: var(--cboc-color-bubble-prct-0-5) transparent transparent transparent;
+}
+
+.cboc-bubble.-prct-10,
+.cboc-bubble.-prct-15 {
+    border-color: var(--cboc-color-bubble-prct-10-15);
+    background-color: var(--cboc-color-bubble-prct-10-15);
+}
+
+.cboc-bubble.-prct-10 .cboc-bubble-number,
+.cboc-bubble.-prct-15 .cboc-bubble-number {
+    color: var(--cboc-color-bubble-prct-10-15);
+}
+
+.cboc-bubble.-prct-10 .cboc-bubble-bubble,
+.cboc-bubble.-prct-15 .cboc-bubble-bubble {
+    display: block;
+    background-color: var(--cboc-color-bubble-prct-10-15);
+}
+
+.cboc-bubble.-prct-10 + .cboc-calendar-tooltip,
+.cboc-bubble.-prct-15 + .cboc-calendar-tooltip {
+    background-color: var(--cboc-color-bubble-prct-10-15);
+}
+
+.cboc-bubble.-prct-10 + .cboc-calendar-tooltip:after,
+.cboc-bubble.-prct-15 + .cboc-calendar-tooltip:after {
+    border-color: var(--cboc-color-bubble-prct-10-15) transparent transparent transparent;
+}
+
+.cboc-bubble.-prct-20 {
+    border-color: var(--cboc-color-bubble-prct-20);
+    background-color: var(--cboc-color-bubble-prct-20);
+}
+
+.cboc-bubble.-prct-20 .cboc-bubble-number {
+    color: var(--cboc-color-bubble-prct-20);
+}
+
+.cboc-bubble.-prct-20 .cboc-bubble-bubble {
+    display: block;
+    background-color: var(--cboc-color-bubble-prct-20);
+}
+
+.cboc-bubble.-prct-20 + .cboc-calendar-tooltip {
+    background-color: var(--cboc-color-bubble-prct-20);
+}
+
+.cboc-bubble.-prct-20 + .cboc-calendar-tooltip:after {
+    border-color: var(--cboc-color-bubble-prct-20) transparent transparent transparent;
+}
+
+.cboc-calendar-tooltip {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    pointer-events: none;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    color: var(--cboc-color-background);
+}
+
+.cboc-calendar-tooltip:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.cboc-calendar-tooltip-prct {
+	font-weight: bold;
+}
+
+.cboc-legend-wrapper {
+	width: calc(100% - 20px);
+	margin: 30px 0 0 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.cboc-legend-line {
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cboc-legend-line .cboc-bubble {
+	width: 50px;
+}
+
+.cboc-legend-text {
+	width: calc(100% - 50px);
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 1.2;
+	display: block;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--cell.-current- {
+    color: inherit;
+    font-weight: bold;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--cell.-selected-,
+.cboc-datepicker .input-datepicker .datepicker--cell.-selected-.-current-,
+.cboc-datepicker .input-datepicker .datepicker--cell.-selected-.-focus- {
+    background: var(--cboc-color-button);
+    color: var(--cboc-color-button-text);
+    font-weight: normal;
+}
+
+.cboc-datepicker .input-datepicker .datepicker--cell:hover {
+    filter: brightness(95%);
+}
+
+.cboc-empty-wrapper {
+    width: calc(100% - 20px);
+    text-align: center;
+    display: none;
+}
+

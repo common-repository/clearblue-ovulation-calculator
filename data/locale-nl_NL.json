@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "Ovulatiecalculator",
+		"When did your last period start?": "Wanneer begon uw laatste menstruatie?",
+		"E.g. 18/01/2020": "Bijv. op 18/01/2020",
+		"Usually, how long is your cycle?": "Hoe lang is uw cyclus gewoonlijk?",
+		"Cycles typically vary from 23 to 35 days": "Cycli variëren doorgaans van 23 tot 35 dagen",
+		"Less than": "Kleiner dan",
+		"Over": "Over",
+		"Estimate your ovulation day": "Schat uw ovulatiedag in",
+		"likelihood of ovulating today": "waarschijnlijkheid van ovulatie vandaag",
+		"Likelihood of ovulating on this date": "Kans op ovulatie op deze datum",
+		"Start of your last period": "Begin van je laatste menstruatie",
+		"Change my informations": "Mijn informatie wijzigen",
+		"In partnership with Clearblue.": "In samenwerking met <a href='https://nl.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "Resultaten zijn gebaseerd op de door u verstrekte informatie en gegevens uit onderstaande publicatie: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Huidig medisch onderzoek en opinie, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "Vanwege uw cycluslengte kunnen we helaas geen ovulatiekans inschatten. We raden u aan een digitale ovulatietest te gebruiken om uw meest vruchtbare dagen nauwkeurig te detecteren.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "Laat de plug-in een \"In samenwerking met Clearblue\" koppeling",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "dd/mm/yyyy",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December"
+		],
+		"monthsShort": [
+			"Jan", "Feb", "Maa", "Apr", "Mei", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"
+		],
+		"days": [
+			"Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"
+		],
+		"daysMin": [
+			"Zon", "Maa", "Din", "Woe", "Don", "Vri", "Zat"
+		]
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "排卵日计算器",
+		"When did your last period start?": "你上次來月經是什麼時候？",
+		"E.g. 18/01/2020": "例如: 18/01/2020",
+		"Usually, how long is your cycle?": "一般情况下，你的周期是多长？",
+		"Cycles typically vary from 23 to 35 days": "周期一般为23至35天",
+		"Less than": "少于",
+		"Over": "过度",
+		"Estimate your ovulation day": "估计您的排卵日",
+		"likelihood of ovulating today": "排卵期",
+		"Likelihood of ovulating on this date": "在这一天排卵的可能性",
+		"Start of your last period": "上次月經的開始日期",
+		"Change my informations": "變更我的資訊",
+		"In partnership with Clearblue.": "伙伴关系 <a href='https://cn.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "结果基于您提供的信息和以下出版物的数据。Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, 当前的医学研究和意见, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "由于您的周期长短，很遗憾我们无法估计排卵概率。我们建议您使用数字排卵测试来准确检测您的最易受孕日。",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "允许插件显示一个  \"与Clearblue合作\" 联系",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "yyyy-mm-dd",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"
+		],
+		"monthsShort": [
+			"一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"
+		],
+		"days": [
+			"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"
+		],
+		"daysMin": [
+			"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"
+		]
+	}
+}

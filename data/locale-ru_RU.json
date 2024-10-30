@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "Калькулятор овуляции",
+		"When did your last period start?": "День начала последних месячных",
+		"E.g. 18/01/2020": "Пример 18/01/2020",
+		"Usually, how long is your cycle?": "Обычно, как долго длится ваш цикл?",
+		"Cycles typically vary from 23 to 35 days": "Циклы обычно варьируются от 23 до 35 дней",
+		"Less than": "Меньше чем",
+		"Over": "Более",
+		"Estimate your ovulation day": "Оцените свой день овуляции",
+		"likelihood of ovulating today": "вероятность овуляции сегодня",
+		"Likelihood of ovulating on this date": "Вероятность овуляции в эту дату",
+		"Start of your last period": "Начало вашей последней менструации",
+		"Change my informations": "Изменить мои сведения",
+		"In partnership with Clearblue.": "совместно с <a href='https://ru.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "Результаты основаны на информации, которую вы предоставили, и данных из публикации ниже: Сара Джонсон, Лорре Марриотт и Майкл Зинаман (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Текущие медицинские исследования и мнения, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "Из-за продолжительности вашего цикла, к сожалению, мы не можем оценить вероятность овуляции. Мы рекомендуем вам использовать цифровой тест на овуляцию, чтобы точно определить ваши самые плодовитые дни.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "Разрешить плагин для отображения \"В партнерстве с Clearblue\" ссылка на сайт",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "yyyy-mm-dd",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"
+		],
+		"monthsShort": [
+			"Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"
+		],
+		"days": [
+			"воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"
+		],
+		"daysMin": [
+			"вос", "пон", "вто", "сре", "чет", "пят", "суб"
+		]
+	}
+}

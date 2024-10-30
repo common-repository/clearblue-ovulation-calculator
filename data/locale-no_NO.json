@@ -1,0 +1,60 @@
+{
+	"__": {
+		"Ovulation Calculator": "Eggløsningskalkulator",
+		"When did your last period start?": "Når begynte den siste menstruasjonen din?",
+		"E.g.18/01/2020": "F.eks. 18/01/2020",
+		"Usually, how long is your cycle?": "Vanligvis, hvor lang er syklusen din?",
+		"Cycles typically vary from 23 to 35 days": "Sykluser varierer vanligvis fra 23 til 35 dager",
+		"Less than": "Mindre enn",
+		"Over": "Over",
+		"Estimate your ovulation day": "Beregn eggløsningsdagen din",
+		"likelihood of ovulating today": "sannsynligheten for eggløsning i dag",
+		"Likelihood of ovulating on this date": "Sannsynligheten for eggløsning på denne datoen",
+		"Start of your last period": "Starten på din siste menstruasjon",
+		"Change my informations": "Endre opplysningene",
+		"In partnership with Clearblue.": "I samarbeid med <a href='https://no.clearblue.com/' target='_blank'>Clearblue®</a>.",
+		"Results are based on the information you have provided and data from the publication below: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Current Medical Research and Opinion, DOI:10.1080/03007995.2018.1475348": "Resultatene er basert på informasjonen du har gitt og data fra publikasjonen nedenfor: Sarah Johnson, Lorrae Marriott & Michael Zinaman (2018): “Can apps and calendar methods predict ovulation with accuracy?”, Nåværende medisinsk forskning og mening, DOI:10.1080/03007995.2018.1475348",
+		"Due to your cycle length, unfortunately we can't estimate an ovulation probability. We recommend that you use a Digital Ovulation Test to accurately detect your most fertile days.": "På grunn av syklusens lengde, kan vi dessverre ikke estimere en sannsynlighet for eggløsning. Vi anbefaler at du bruker en digital eggløsningstest for å oppdage de mest fruktbare dagene dine.",
+		"Shortcode": "Shortcode",
+		"Settings": "Settings",
+		"Credits": "Credits",
+		"Allow the plugin to display a \"In partnership with Clearblue\" link": "La plugin-en vise a \"I samarbeid med Clearblue\" link",
+		"Colors": "Colors",
+		"Save": "Submit",
+		"Reset settings": "Reset settings",
+		"cboc-language": "Language",
+		"cboc-format": "Format",
+		"cboc-format-round": "Round",
+		"cboc-format-square": "Squared",
+		"cboc-color-background": "Background",
+		"cboc-color-title": "Title",
+		"cboc-color-text": "Text",
+		"cboc-color-button": "Button",
+		"cboc-color-button-text": "Button - Text",
+		"cboc-color-input": "Input",
+		"cboc-color-border": "Input - Border",
+		"cboc-color-error": "Input - Error",
+		"cboc-color-bubble-period": "Calendar - Period",
+		"cboc-color-bubble-prct-0-5": "Calendar - 0-5%",
+		"cboc-color-bubble-prct-10-15": "Calendar - 10-15%",
+		"cboc-color-bubble-prct-20": "Calendar - +20%"
+	},
+	"locale": {
+		"dateFormat": "dd/mm/yyyy",
+		"firstDay": 1,
+		"dateFormatLong": "DD dd MM yyyy",
+		"dateFormatIcal": "yyyymmdd",
+		"months": [
+			"Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Desember"
+		],
+		"monthsShort": [
+			"Jan", "Feb", "Mar", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Des"
+		],
+		"days": [
+			"Søndag", "Måndag", "Tysdag", "Onsdag", "Torsdag", "Fredag", "Laurdag"
+		],
+		"daysMin": [
+			"Søn", "Mån", "Tys", "Ons", "Tor", "Fre", "Lau"
+		]
+	}
+}
